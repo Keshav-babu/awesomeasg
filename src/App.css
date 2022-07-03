@@ -2,10 +2,16 @@
   text-align: center;
 }
 .pro{
-  display:block;
+  
 }
 .fl{
   display: flex;
+}
+.grid-container {
+  display: grid;
+  grid-template-columns: auto auto auto auto;
+ 
+  padding: 10px;
 }
 .App-logo {
   height: 40vmin;
