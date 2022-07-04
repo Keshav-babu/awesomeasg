@@ -59,7 +59,7 @@ export const DrawerExample=({img,price})=> {
           <DrawerHeader>Buy</DrawerHeader>
 
           <DrawerBody>
-            <img src={img} />
+            <img src={img} style={{height:"300px",width:"100%"}}/>
             <p>{price}</p>
             <Box w='100%' color='' border="1px solid green"  >
                 
